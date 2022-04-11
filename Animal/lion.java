@@ -6,7 +6,7 @@ class lion extends animal{
     }
 
     lion(String name, int age){ //parameterized constructor
-        super (name);
+        super (name); //Accessing the base class attributes
         // this.name = name;
         this.age = age;
     }
@@ -17,7 +17,7 @@ class lion extends animal{
         age = other.age;
     }
 
-    void getname(){
+    void getname(){ //Show Function
         System.out.println(name);
     }
 
