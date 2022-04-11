@@ -13,7 +13,7 @@ public class animal {
         name = other.name;
     }
      
-    public void show (){
+    void display(){
         System.out.println("name" + name);
     }
 }

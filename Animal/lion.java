@@ -22,16 +22,19 @@ class lion extends animal{
     void getname(){ //Show Function
         System.out.println(name);
     }
-
-    void display(){ //display function
+    
+    void display(){ //overriden display function
         System.out.println("Name :" + super.name); //for printig super/Base class value
-        System.out.println("Name :" + name);
+        System.out.println("Name :" + name);  //for printig Child class value
         System.out.println("Age :" + age);
     }
 
 public static void main(String[] args) {
     lion amas = new lion();
     amas.display();
+
+    animal me = new animal();
+    me.display();
     
 }
 }
