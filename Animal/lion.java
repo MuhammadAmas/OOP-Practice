@@ -3,6 +3,8 @@ class lion extends animal{
     int age;
 
     lion(){ //Null Construtor
+        name = "lion";
+        age = 14;
     }
 
     lion(String name, int age){ //parameterized constructor
@@ -22,6 +24,7 @@ class lion extends animal{
     }
 
     void display(){ //display function
+        System.out.println("Name :" + super.name); //for printig super/Base class value
         System.out.println("Name :" + name);
         System.out.println("Age :" + age);
     }

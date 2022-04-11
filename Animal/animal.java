@@ -1,7 +1,8 @@
 public class animal {
-    String name;
+    String name ;
 
     animal(){
+        name = "panda" ;
     }
 
     animal(String name){ //parameterized
