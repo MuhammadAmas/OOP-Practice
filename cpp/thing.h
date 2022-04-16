@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-class thing1 {
+class thing {
     public:
     int *x;
     thing();
@@ -8,4 +8,4 @@ class thing1 {
     void set(int value);
     int get();
     ~thing();
-}
+};

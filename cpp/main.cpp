@@ -1,6 +1,18 @@
 #include <iostream>
-#include thing.h
+#include "thing.h"
 using namespace std;
+
+
+    void do2(int value){
+        cout<<"Enter do2 with level="<<level<<endl;
+    }
+
+    void do1(int value){
+        cout<<"Enter do1 with level="<<level<<endl;
+        thing TTT(level);
+        do2(level+1);
+    }
+
 int main(){
     thing T(1);
     cout<<endl;
@@ -13,6 +25,6 @@ int main(){
 
     do2(5);
     cout<<endl;
-    
+
     return 0;
 };
