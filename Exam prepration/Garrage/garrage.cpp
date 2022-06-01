@@ -23,6 +23,22 @@ int main(){
         cout<<"Enter 1 to put car in garrage, 2 to remove it and 3 to quit";
         cin>>menu_choice;
 
-        if(menu_choice==)
+        if(menu_choice==1 && garage== NULL){
+            cout<<"Enter color of car: ";
+            cin>>temp_color;
+            garage = new car(temp_color);
+            cout<<"color is"<<garage->getcolor()<<endl;          
+        }
+
+        if (menu_choice==2 && garage!=NULL){
+            delete garage;
+            garage = NULL;
+            cout<<"car removed"<<endl;
+        }
+
+        if (garage==NULL){
+            delete garage;
+        }
+        
     }
 }
