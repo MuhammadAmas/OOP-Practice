@@ -5,6 +5,7 @@ using namespace std;
 
     void do2(int value){
         cout<<"Enter do2 with level="<<level<<endl;
+        thing TT(level);
     }
 
     void do1(int value){
