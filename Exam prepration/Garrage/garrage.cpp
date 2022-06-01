@@ -1,4 +1,6 @@
+#include <iostream>
 #include <string.h>
+using namespace std;
 class car{
     private:
     char color[10];
@@ -27,7 +29,7 @@ int main(){
             cout<<"Enter color of car: ";
             cin>>temp_color;
             garage = new car(temp_color);
-            cout<<"color is"<<garage->getcolor()<<endl;          
+            cout<<"color is"<<garage->get_color()<<endl;          
         }
 
         if (menu_choice==2 && garage!=NULL){
