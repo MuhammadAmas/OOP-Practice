@@ -35,10 +35,10 @@ int main(){
             garage = NULL;
             cout<<"car removed"<<endl;
         }
-
-        if (garage==NULL){
-            delete garage;
-        }
-        
     }
+
+    if (garage==NULL){
+        delete garage;
+    }
+        
 }
